@@ -10,7 +10,8 @@ This project focuses on developing machine learning models to predict healthcare
 
 * Outliers were detected and removed using the Interquartile Range (IQR) method.
 
-* Continuous features were scaled using StandardScaler.<br>
+* Continuous features were scaled using StandardScaler. <be>
+<!-- end of the list -->
 **Feature Categorization and Preprocessing**
 
 * Features were categorized into categorical, discrete, and continuous groups for tailored preprocessing.
@@ -18,16 +19,19 @@ This project focuses on developing machine learning models to predict healthcare
 * Categorical features were one-hot encoded to prevent models from assuming false orderings.
 
 * Indicator columns were created for numerical features to represent missing or inapplicable values.<br>
+<!-- end of the list -->
 **Fairness Considerations**
 
 * The project analyzed sensitive features such as RACE, SEX, REGION, and MARITAL STAT using fairness metrics like Demographic Parity, Equal Opportunity, and Equalized Odds.
 
 * Disparities were found in the model's predictions across different demographic groups, indicating potential biases.<br>
+<!-- end of the list -->
 **Machine Learning Models**
 
 * Classification: The project used models such as Logistic Regression, XGBClassifier, LightGBM, BaggedSVC, and MLP. LightGBM was the top-performing model, with an F1 Score of 0.917 and a Balanced Accuracy of 0.758.
 
 * Regression: The project used models such as Ridge Regression, XGBRegressor, HistGradientBoosting, BaggedSVM, and MLP. Ridge Regression was the top-performing model, with a Mean RMSE of 11008.40 and MAE of 4789.08.<br>
+<!-- end of the list -->
 **Model Selection and Hyperparameter Tuning**
 
 * A nested cross-validation strategy was used to ensure robust model selection and minimize overfitting.
@@ -39,9 +43,11 @@ This project focuses on developing machine learning models to predict healthcare
 * The hyperparameter search space included key parameters such as max depth, min child samples, and num leaves for the LightGBM model and alpha, fit intercept, max iter, and positive for the Ridge Regression model.
 
 * The final model pipelines for both LightGBM and Ridge Regression were constructed using optimized hyperparameters, which are detailed in the report.<br>
+<!-- end of the list -->
 **Other Approaches Considered**
 
 * Semi-supervised learning techniques were considered but not implemented due to concerns about overfitting.<br>
+<!-- end of the list -->
 **Key Findings**
 
 * The LightGBM model was selected for classification tasks.
