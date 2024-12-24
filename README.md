@@ -1,4 +1,4 @@
-This project focuses on developing machine learning models to predict healthcare utilization and medical expenditures. The models were developed using data from the 2015 Medical Expenditure Panel Survey (MEPS), a comprehensive survey of the U.S. civilian noninstitutionalized population. <br>
+This project focuses on developing machine learning models to predict healthcare utilization and medical expenditures. The models were developed using data from the 2015 Medical Expenditure Panel Survey (MEPS), a comprehensive survey of the U.S. civilian noninstitutionalized population. <br><br>
 **Data Exploration and Preprocessing**
 * The dataset included pre-encoded categorical features, but the 'RACE' and 'UTILIZATION' variables needed to be converted to numerical format using LabelEncoder.
 
